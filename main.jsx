@@ -3,7 +3,7 @@
 // FIXED: Point to your actual backend URL
 export const server = import.meta.env.VITE_SERVER_URL || 
                       import.meta.env.REACT_APP_SERVER_URL || 
-                      "https://ai-character-chatbot-2.onrender.com";
+                      "https://chatserver-mjhj.onrender.com";
 
 console.log('🔗 Frontend connecting to server:', server);
 
